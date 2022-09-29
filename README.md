@@ -26,6 +26,7 @@ sudo apt-get install libusb-1.0-0-dev<br>
 sudo apt-get install libturbojpeg0-dev<br>
 sudo apt-get install libglfw3-dev<br>
 sudo apt-get install libopenni2-dev<br>
+sudo apt-get install build-essential cmake<br>
 mkdir build && cd build<br>
 cmake .. -DCMAKE_BUILD_TYPE=Release -DENABLE_CUDA=OFF -DENABLE_OPENCL=OFF -DENABLE_OPENGL_AS_ES31=ON -DENABLE_CXX11=ON -DENABLE_VAAPI=OFF<br>
 make -j4<br>
